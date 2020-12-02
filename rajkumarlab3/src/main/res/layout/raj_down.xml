@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
         style="@style/TextStyle"
-        android:text="@string/fullname_tv" />
+        android:text="@string/firstname_tv" />
 
     <Button
         android:id="@+id/rajBtn"
@@ -25,7 +25,7 @@
         android:layout_marginTop="50dip"
         android:layout_gravity="center"
         style="@style/ButtonStyle"
-        android:text="Download Image" />
+        android:text="@string/downloadbtn" />
 
     <ProgressBar
         android:id="@+id/rajPbar"
@@ -36,5 +36,5 @@
         android:layout_marginTop="50dip"
         android:max="100"
         android:progress="100"/>
-    
+
 </LinearLayout>
