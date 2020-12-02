@@ -45,5 +45,25 @@
         style="@style/TextStyle"
         android:textSize="40sp"/>
 
+    <Spinner
+        android:id="@+id/rajSp"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginStart="60dip"/>
+
+    <EditText
+        android:id="@+id/rajDateEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:ems="14"
+        android:focusable="false"
+        android:hint="@string/ra_home_ethint"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColor="@color/black" />
+
 </LinearLayout>
 

@@ -14,5 +14,15 @@
     <string name="dialog_exit">Exit App</string>
     <string name="overflow_item">Help</string>
     <string name="navigation_drawertitle">Navigation Drawer</string>
+    <string name="ra_home_ethint">Enter a date</string>
+
+    <string-array name="course_list">
+        <item>CENG 317</item>
+        <item>CENG 318</item>
+        <item>CENG 319</item>
+        <item>CENG 320</item>
+        <item>NEST 203</item>
+        <item>GNED 101</item>
+    </string-array>
 
 </resources>
