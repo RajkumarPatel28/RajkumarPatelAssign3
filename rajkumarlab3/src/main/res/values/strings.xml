@@ -23,6 +23,10 @@
     <string name="firstname_tv">Rajkumar</string>
     <string name="lastname_tv">Patel</string>
     <string name="downloadbtn">Download Image</string>
+    <string name="zip_codeet">Enter ZIP code</string>
+    <string name="error_message">Enter a valid ZIP code</string>
+    <string name="error_message2">ZIP code must be less than 5 characters</string>
+    <string name="web_servicesbtn">Web Services</string>
 
     <string-array name="course_list">
         <item>CENG 317</item>

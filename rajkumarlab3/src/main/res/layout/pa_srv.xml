@@ -9,8 +9,33 @@
     tools:context=".ui.lastname.PaSrv">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/rajNameTv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        style="@style/TextStyle"
+        android:text="@string/lastname_tv" />
+
+    <EditText
+        android:id="@+id/rajZipEt"
+        style="@style/EditTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dip"
+        android:ems="14"
+        android:hint="@string/zip_codeet"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/rajWebBtn"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dip"
+        style="@style/ButtonStyle"
+        android:text="@string/web_servicesbtn" />
+
+
 </LinearLayout>
