@@ -10,13 +10,31 @@
 
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:id="@+id/rajNameTv2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="50dp"
-        android:textSize="30sp"
-        android:textColor="@color/black"
-        android:text="Testing!!!!!!!" />
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        style="@style/TextStyle"
+        android:text="@string/fullname_tv" />
 
+    <Button
+        android:id="@+id/rajBtn"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:layout_gravity="center"
+        style="@style/ButtonStyle"
+        android:text="Download Image" />
+
+    <ProgressBar
+        android:id="@+id/rajPbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:max="100"
+        android:progress="100"/>
+    
 </LinearLayout>
