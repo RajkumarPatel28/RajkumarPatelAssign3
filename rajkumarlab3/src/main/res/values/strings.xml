@@ -13,5 +13,6 @@
     <string name="dialog_no">No</string>
     <string name="dialog_exit">Exit App</string>
     <string name="overflow_item">Help</string>
+    <string name="navigation_drawertitle">Navigation Drawer</string>
 
 </resources>

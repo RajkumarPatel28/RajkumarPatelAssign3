@@ -4,14 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightBlue"
+    android:background="@color/lightGreen"
     android:orientation="vertical"
     tools:context=".ui.home.RaHome">
 
-
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/rajNameTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        style="@style/TextStyle"
+        android:text="Rajkumar Patel" />
+
+    <TextView
+        android:id="@+id/rajStudentIdTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        style="@style/TextStyle"
+        android:text="N01289472" />
+
+    <TextView
+        android:id="@+id/rajDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        style="@style/TextStyle"
+        android:text=""
+        android:textSize="26sp"/>
+
+    <DigitalClock
+        android:id="@+id/rajDClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        style="@style/TextStyle"
+        android:textSize="40sp"/>
+
 </LinearLayout>
+
