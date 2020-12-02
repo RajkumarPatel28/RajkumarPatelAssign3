@@ -2,24 +2,30 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    android:id="@+id/rajMobileNavigation"
+    app:startDestination="@+id/rajNavHome">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/rajNavHome"
         android:name="rajkumar.patel.n01289472.ui.home.RaHome"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/menu_item0"
+        tools:layout="@layout/ra_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/rajNavFirstname"
         android:name="rajkumar.patel.n01289472.ui.firstname.RajDown"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="@string/menu_item1"
+        tools:layout="@layout/raj_down" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="rajkumar.patel.n01289472.ui.lastname.RajSet"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/rajNavLastname"
+        android:name="rajkumar.patel.n01289472.ui.lastname.PaSrv"
+        android:label="@string/menu_item2"
+        tools:layout="@layout/pa_srv" />
+
+    <fragment
+        android:id="@+id/rajNavSettings"
+        android:name="rajkumar.patel.n01289472.ui.settings.PatSet"
+        android:label="@string/menu_item3"
+        tools:layout="@layout/pat_set" />
 </navigation>
