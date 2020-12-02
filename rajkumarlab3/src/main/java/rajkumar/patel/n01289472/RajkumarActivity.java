@@ -1,8 +1,12 @@
 package rajkumar.patel.n01289472;
 
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -45,9 +49,15 @@ public class RajkumarActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    public void callIntent(MenuItem item) {
+        Intent intent = null;
+        intent = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://humber.ca/"));
+        startActivity(intent);
     }
 
     @Override
