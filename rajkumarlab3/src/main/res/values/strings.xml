@@ -15,6 +15,11 @@
     <string name="overflow_item">Help</string>
     <string name="navigation_drawertitle">Navigation Drawer</string>
     <string name="ra_home_ethint">Enter a date</string>
+    <string name="fullname_tv">Rajkumar Patel</string>
+    <string name="studentid_tv">N01289472</string>
+    <string name="course_selected">Course Selected</string>
+    <string name="date_selected">Date Selected</string>
+    <string name="dialog_messageok">Ok</string>
 
     <string-array name="course_list">
         <item>CENG 317</item>

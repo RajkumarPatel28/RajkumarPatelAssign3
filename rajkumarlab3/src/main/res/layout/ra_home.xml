@@ -15,7 +15,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
         style="@style/TextStyle"
-        android:text="Rajkumar Patel" />
+        android:text="@string/fullname_tv" />
 
     <TextView
         android:id="@+id/rajStudentIdTv"
@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dip"
         style="@style/TextStyle"
-        android:text="N01289472" />
+        android:text="@string/studentid_tv" />
 
     <TextView
         android:id="@+id/rajDate"
@@ -64,6 +64,14 @@
         android:importantForAutofill="no"
         android:inputType="date"
         android:textColor="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rajImageBtn"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        android:src="@android:drawable/ic_menu_info_details"/>
 
 </LinearLayout>
 
