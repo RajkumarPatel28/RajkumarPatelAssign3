@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RajkumarLab3</string>
+    <string name="menu_item0">Accueil</string>
+    <string name="menu_item1">Rajkumar</string>
+    <string name="menu_item2">Patel</string>
+    <string name="menu_item3">Réglages</string>
+    <string name="dialog_message">Souhaitez-vous quitter?</string>
+    <string name="dialog_yes">Oui</string>
+    <string name="dialog_no">Non</string>
+    <string name="dialog_exit">Quitter l\'application</string>
+    <string name="overflow_item">Aidez-moi</string>
+    <string name="navigation_drawertitle">Tiroir de navigation</string>
+    <string name="ra_home_ethint">Entrez une date</string>
+    <string name="fullname_tv">Rajkumar Patel</string>
+    <string name="studentid_tv">N01289472</string>
+    <string name="course_selected">Le cours que vous avez sélectionné:\n</string>
+    <string name="date_selected">\n\nLa date que vous avez sélectionnée:\n</string>
+    <string name="dialog_messageok">D\'accord</string>
+    <string name="firstname_tv">Rajkumar</string>
+    <string name="lastname_tv">Patel</string>
+    <string name="downloadbtn">Télécharger l\'image</string>
+    <string name="zip_codeet">Entrer le code postal</string>
+    <string name="error_message">Entrez un code postal valide</string>
+    <string name="error_message2">Le code postal doit comporter moins de 5 caractères</string>
+    <string name="web_servicesbtn">Services Web</string>
+    <string name="change_brightnesstv">Changer la luminosité</string>
+    <string name="change_backgroundtv">Changement de fond</string>
+    <string name="colour1">Vert</string>
+    <string name="colour2">Bleu</string>
+    <string name="colour3">Jaune</string>
+    <string name="humber_link">https://humber.ca/</string>
+    <string name="course_testcase">CENG 319</string>
+    <string name="zipcode_testcase">12345</string>
+    <string name="colour_testcase">Vert</string>
+
+</resources>
