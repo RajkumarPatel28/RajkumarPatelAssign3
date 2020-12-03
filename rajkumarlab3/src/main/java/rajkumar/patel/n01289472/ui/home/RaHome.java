@@ -34,7 +34,6 @@ public class RaHome extends Fragment implements AdapterView.OnItemSelectedListen
 
     Spinner rajSp;
     TextView rajDate;
-    String[] coursesList;
     EditText rajDateEt;
     ImageButton rajImageBtn;
 
@@ -51,13 +50,11 @@ public class RaHome extends Fragment implements AdapterView.OnItemSelectedListen
         rajDate = view.findViewById(R.id.rajDate);
         rajDate.setText(currentdate);
 
-        coursesList = getResources().getStringArray(R.array.course_list);
-
         rajSp = view.findViewById(R.id.rajSp);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.browser_link_context_header, getResources().getStringArray(R.array.course_list));
-
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),R.array.course_list, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         rajSp.setAdapter(adapter);
+        rajSp.setOnItemSelectedListener(this);
 
         rajDateEt = view.findViewById(R.id.rajDateEt);
         rajDateEt.setOnClickListener(new View.OnClickListener() {

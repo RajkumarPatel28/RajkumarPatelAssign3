@@ -17,8 +17,8 @@
     <string name="ra_home_ethint">Enter a date</string>
     <string name="fullname_tv">Rajkumar Patel</string>
     <string name="studentid_tv">N01289472</string>
-    <string name="course_selected">Course Selected</string>
-    <string name="date_selected">Date Selected</string>
+    <string name="course_selected">The course you have selected:\n</string>
+    <string name="date_selected">\n\nThe date you have selected:\n</string>
     <string name="dialog_messageok">Ok</string>
     <string name="firstname_tv">Rajkumar</string>
     <string name="lastname_tv">Patel</string>
