@@ -32,6 +32,7 @@
     <string name="colour1">Green</string>
     <string name="colour2">Blue</string>
     <string name="colour3">Yellow</string>
+    <string name="humber_link">https://humber.ca/</string>
 
     <string-array name="course_list">
         <item>CENG 317</item>

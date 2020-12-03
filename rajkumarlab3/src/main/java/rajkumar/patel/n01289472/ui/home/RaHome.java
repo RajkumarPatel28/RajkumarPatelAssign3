@@ -51,7 +51,7 @@ public class RaHome extends Fragment implements AdapterView.OnItemSelectedListen
         rajDate.setText(currentdate);
 
         rajSp = view.findViewById(R.id.rajSp);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),R.array.course_list, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(), R.array.course_list, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         rajSp.setAdapter(adapter);
         rajSp.setOnItemSelectedListener(this);

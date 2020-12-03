@@ -2,28 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rajLinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
-    android:id="@+id/rajLinearLayout"
     android:orientation="vertical"
     tools:context=".ui.settings.PatSet">
 
     <TextView
         android:id="@+id/rajBckgroundTv"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
-        style="@style/TextStyle"
         android:text="@string/change_backgroundtv" />
 
     <RadioGroup
         android:id="@+id/rajRadioG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dip"
-        android:layout_gravity="center" >
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip">
 
         <RadioButton
             android:id="@+id/rajcolour1"
@@ -46,11 +46,11 @@
 
     <TextView
         android:id="@+id/rajBrightnessTv"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="60dip"
-        style="@style/TextStyle"
         android:text="@string/change_brightnesstv" />
 
     <SeekBar
@@ -59,8 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dip"
-        android:progress="0"
+        android:indeterminate="false"
         android:max="100"
-        android:indeterminate="false"/>
+        android:progress="0" />
 
 </LinearLayout>

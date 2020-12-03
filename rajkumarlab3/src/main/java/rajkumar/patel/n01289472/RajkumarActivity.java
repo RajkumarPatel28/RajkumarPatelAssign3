@@ -55,7 +55,7 @@ public class RajkumarActivity extends AppCompatActivity {
     public void callIntent(MenuItem item) {
         Intent intent = null;
         intent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://humber.ca/"));
+                Uri.parse(getString(R.string.humber_link)));
         startActivity(intent);
     }
 

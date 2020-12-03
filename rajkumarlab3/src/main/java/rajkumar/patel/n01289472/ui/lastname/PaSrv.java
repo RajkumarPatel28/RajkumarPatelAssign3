@@ -35,7 +35,7 @@ public class PaSrv extends Fragment {
 
                 zipCode = rajZipEt.getText().toString().trim();
 
-                if (TextUtils.isEmpty(zipCode)){
+                if (TextUtils.isEmpty(zipCode)) {
                     rajZipEt.setError(getString(R.string.error_message));
                     return;
                 }

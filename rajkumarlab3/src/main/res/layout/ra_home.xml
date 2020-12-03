@@ -10,47 +10,47 @@
 
     <TextView
         android:id="@+id/rajNameTv"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
-        style="@style/TextStyle"
         android:text="@string/fullname_tv" />
 
     <TextView
         android:id="@+id/rajStudentIdTv"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dip"
-        style="@style/TextStyle"
         android:text="@string/studentid_tv" />
 
     <TextView
         android:id="@+id/rajDate"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
-        style="@style/TextStyle"
         android:text=""
-        android:textSize="26sp"/>
+        android:textSize="26sp" />
 
     <DigitalClock
         android:id="@+id/rajDClock"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
-        style="@style/TextStyle"
-        android:textSize="40sp"/>
+        android:textSize="40sp" />
 
     <Spinner
         android:id="@+id/rajSp"
         android:layout_width="300dip"
         android:layout_height="40dip"
-        android:layout_marginTop="20dip"
-        android:layout_marginStart="60dip"/>
+        android:layout_marginStart="60dip"
+        android:layout_marginTop="20dip" />
 
     <EditText
         android:id="@+id/rajDateEt"
@@ -69,9 +69,9 @@
         android:id="@+id/rajImageBtn"
         android:layout_width="150dip"
         android:layout_height="150dip"
-        android:layout_marginTop="20dip"
         android:layout_gravity="center"
-        android:src="@android:drawable/ic_menu_info_details"/>
+        android:layout_marginTop="20dip"
+        android:src="@android:drawable/ic_menu_info_details" />
 
 </LinearLayout>
 

@@ -10,11 +10,11 @@
 
     <TextView
         android:id="@+id/rajNameTv3"
+        style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dip"
-        style="@style/TextStyle"
         android:text="@string/lastname_tv" />
 
     <EditText
@@ -30,12 +30,11 @@
 
     <Button
         android:id="@+id/rajWebBtn"
+        style="@style/ButtonStyle"
         android:layout_width="300dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="70dip"
-        style="@style/ButtonStyle"
         android:text="@string/web_servicesbtn" />
-
 
 </LinearLayout>
