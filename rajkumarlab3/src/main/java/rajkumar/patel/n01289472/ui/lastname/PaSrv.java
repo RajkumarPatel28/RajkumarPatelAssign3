@@ -50,4 +50,9 @@ public class PaSrv extends Fragment {
         return view;
     }
 
+    public boolean validZipCode(String myZipCode){
+
+        boolean zipCode = myZipCode.contains(getString(R.string.zipcode_testcase));
+        return zipCode;
+    }
 }

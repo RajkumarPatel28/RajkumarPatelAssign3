@@ -96,4 +96,9 @@ public class PatSet extends Fragment {
         return view;
     }
 
+    public boolean validBackgroundColour(String myColour){
+
+        boolean backgroundColour = myColour.contains(getString(R.string.colour_testcase));
+        return backgroundColour;
+    }
 }

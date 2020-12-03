@@ -33,6 +33,9 @@
     <string name="colour2">Blue</string>
     <string name="colour3">Yellow</string>
     <string name="humber_link">https://humber.ca/</string>
+    <string name="course_testcase">CENG 319</string>
+    <string name="zipcode_testcase">12345</string>
+    <string name="colour_testcase">Green</string>
 
     <string-array name="course_list">
         <item>CENG 317</item>

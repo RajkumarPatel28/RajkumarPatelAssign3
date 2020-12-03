@@ -115,4 +115,10 @@ public class RaHome extends Fragment implements AdapterView.OnItemSelectedListen
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+
+    public boolean validCourse(String myCourse){
+
+        boolean course = myCourse.contains(getString(R.string.course_testcase));
+        return course;
+    }
 }
