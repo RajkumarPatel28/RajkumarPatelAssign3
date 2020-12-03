@@ -27,6 +27,11 @@
     <string name="error_message">Enter a valid ZIP code</string>
     <string name="error_message2">ZIP code must be less than 5 characters</string>
     <string name="web_servicesbtn">Web Services</string>
+    <string name="change_brightnesstv">Change Brightness</string>
+    <string name="change_backgroundtv">Change Background</string>
+    <string name="colour1">Green</string>
+    <string name="colour2">Blue</string>
+    <string name="colour3">Yellow</string>
 
     <string-array name="course_list">
         <item>CENG 317</item>

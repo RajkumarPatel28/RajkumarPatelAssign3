@@ -5,12 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
+    android:id="@+id/rajLinearLayout"
     android:orientation="vertical"
     tools:context=".ui.settings.PatSet">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/rajBckgroundTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        style="@style/TextStyle"
+        android:text="@string/change_backgroundtv" />
+
+    <RadioGroup
+        android:id="@+id/rajRadioG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_gravity="center" >
+
+        <RadioButton
+            android:id="@+id/rajcolour1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colour1" />
+
+        <RadioButton
+            android:id="@+id/rajcolour2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colour2" />
+
+        <RadioButton
+            android:id="@+id/rajcolour3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colour3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/rajBrightnessTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dip"
+        style="@style/TextStyle"
+        android:text="@string/change_brightnesstv" />
+
+    <SeekBar
+        android:id="@+id/rajSeekBar"
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:progress="0"
+        android:max="100"
+        android:indeterminate="false"/>
+
 </LinearLayout>
